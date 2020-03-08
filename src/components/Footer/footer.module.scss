@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 3rem;
+    margin: 0 auto;
+    padding: 1rem;
+    display: table;
+    position: sticky;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+
+    ul#horizontal-list li {
+        display: inline;
+    }
+}
