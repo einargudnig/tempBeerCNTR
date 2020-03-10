@@ -124,7 +124,7 @@ class HomeIndex extends React.Component {
 
                     <DrinkBeer />
 
-                    <DrinkBeer2 />
+                    {/*<DrinkBeer2 />
 
                     <DrinkBeer3 />
 
@@ -134,7 +134,7 @@ class HomeIndex extends React.Component {
 
                     <DrinkBeer6 />
 
-                    <DrinkBeer7 />
+                    <DrinkBeer7 />*/}
 
                     </section>
 
