@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/Layout/layout'
 // import { useState } from 'react'
-import { Link, graphql, useStaticQuery } from 'gatsby'
+// import { Link, graphql, useStaticQuery } from 'gatsby'
 
 import blogStyles from './blog.module.scss'
 
