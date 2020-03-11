@@ -3,32 +3,34 @@ import React, { useState, useEffect } from 'react'
 import './drink.scss'
 
 function DrinkBeer3() {
-    /** Stats for beer */
+    
+    const isBrowser = () => typeof window !== "undefined"
 
-    const initialCountBeer3 = () => Number (window.localStorage.getItem('countBeer3') || 0)
+    /** Stats for beer */
+    const initialCountBeer3 = () => Number (isBrowser() && window.localStorage.getItem('countBeer3') || 0)
     const [countBeer3, setCountBeer3] = useState(initialCountBeer3)
     const incrementBeer3 = () => setCountBeer3(countBeer3 + 1)
     const decrementBeer3 = () => setCountBeer3(countBeer3 - 1)
     useEffect(() => {
-        window.localStorage.setItem('countBeer3', countBeer3)
+        isBrowser() && window.localStorage.setItem('countBeer3', countBeer3)
     }, [countBeer3])
 
     /** stats for shots */
-    const initialCountShots3 = () => Number (window.localStorage.getItem('countShots3') || 0)
+    const initialCountShots3 = () => Number (isBrowser() && window.localStorage.getItem('countShots3') || 0)
     const [countShots3, setCountShots3] = useState(initialCountShots3)
     const incrementShots3 = () => setCountShots3(countShots3 + 1)
     const decrementShots3 = () => setCountShots3(countShots3 - 1)
     useEffect(() => {
-        window.localStorage.setItem('countShots3', countShots3)
+        isBrowser() && window.localStorage.setItem('countShots3', countShots3)
     }, [countShots3])
 
     /** Stats for Drinks/Wine */
-    const initialCountDrinks3 = () => Number (window.localStorage.getItem('countDrinks3') || 0)
+    const initialCountDrinks3 = () => Number (isBrowser() && window.localStorage.getItem('countDrinks3') || 0)
     const [countDrinks3, setCountDrinks3] = useState(initialCountDrinks3)
     const incrementDrinks3 = () => setCountDrinks3(countDrinks3 + 1)
     const decrementDrinks3 = () => setCountDrinks3(countDrinks3 - 1)
     useEffect(() => {
-        window.localStorage.setItem('countDrinks3', countDrinks3)
+        isBrowser() && window.localStorage.setItem('countDrinks3', countDrinks3)
     }, [countDrinks3])
 
     
