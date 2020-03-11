@@ -59,7 +59,7 @@ class HomeIndex extends React.Component {
                         I like to learn new things and I think I learn best by doing. <br />
                         Below I have some projects you can take a look at. I have made some more, many of them are school projects, I will start by showing these, I will add more projects in the future.</p>
                         <ul className="actions">
-                            <li><a href="https://drive.google.com/open?id=1Fn6jb5FE0adVmUtQuHlH6R7aez05ADZC" target="_blank" className="button">My CV</a></li>
+                            <li><a href="https://docdro.id/IWCLYGc" target="_blank" className="button">My CV</a></li>
                         </ul>
                     </section>
 
