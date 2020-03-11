@@ -3,6 +3,11 @@ const config = require('./config');
 module.exports = {
   /* Your site config here */
     pathPrefix: config.pathPrefix,
+    siteMetadata: {
+      title: 'Einar Guðni',
+      description: 'My homepage',
+      siteUrl: `https://www.einargudni.com`
+    },
     plugins: [
       'gatsby-plugin-react-helmet',
       'gatsby-plugin-sass',
