@@ -35,7 +35,7 @@ function DrinkBeer6() {
     
     return(
         <div className="container">
-            <h4 className="name">Gulli</h4>
+            <h4 className="name">Óli</h4>
             Beers:
             <button className="beerBttn" onClick={incrementBeer6}>+</button>
                 <button className="number">{countBeer6}</button>
