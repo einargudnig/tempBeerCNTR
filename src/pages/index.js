@@ -119,25 +119,6 @@ class HomeIndex extends React.Component {
                         </div>
                     </section>*/}
 
-                    <section id="three">
-                    <p>This is just a temporary component.. I wanted to make an App that would count drinks for a weekend away with friends. Just for simple fun, but did not manage to finish it. So I did this component in stead</p>
-
-                    <DrinkBeer />
-
-                    <DrinkBeer2 />
-
-                    <DrinkBeer3 />
-
-                    <DrinkBeer4 />
-
-                    <DrinkBeer5 />
-
-                    <DrinkBeer6 />
-
-                    <DrinkBeer7 />
-
-                    </section>
-
                 </div>
 
             </Layout>
