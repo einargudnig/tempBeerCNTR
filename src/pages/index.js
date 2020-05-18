@@ -4,33 +4,26 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery/gallery'
-import DrinkBeer from '../components/Drink/drink'
-import DrinkBeer2 from '../components/Drink/drink2'
-import DrinkBeer3 from '../components/Drink/drink3'
-import DrinkBeer4 from '../components/Drink/drink4'
-import DrinkBeer5 from '../components/Drink/drink5'
-import DrinkBeer6 from '../components/Drink/drink6'
-import DrinkBeer7 from '../components/Drink/drink7'
 
 
 import rebootThumb from '../assets/images/thumbs/rebootThumb.jpg'
 import einarThumb from '../assets/images/thumbs/einarThumb.jpg'
 import nflwebThumb from '../assets/images/thumbs/nflwebThumb.jpg'
-import flutterThumb from '../assets/images/thumbs/flutterThumb.jpg'
+import pythonThumb from '../assets/images/thumbs/pythonThumb.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 
 import rebootFull from '../assets/images/fulls/rebootFull.jpg'
 import einarFull from '../assets/images/fulls/einarFull.jpg'
 import nflwebFull from '../assets/images/fulls/nflwebFull.jpg'
-import flutterFull from '../assets/images/fulls/flutterFull.jpg'
+import pythonFull from '../assets/images/fulls/corrPython.png'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', source: rebootFull, thumbnail: rebootThumb, caption: 'www.reboothack.is', description: '<a href="www.reboothack.is" target="_blank">www.reboothack.is</a> This project I made as a part of a project management group for Reboot Hack 2020. Technology we used was nodeJS(express) server with email sender to send emails to participants. The site is built with ReactJS, HTML, CSS, Bootstrap and Webpack. More info in github page. <a href="https://github.com/einargudnig/reboothackFORK" target="_blank">Project on Github</a>'},
     { id: '2', source: einarFull, thumbnail: einarThumb, caption: 'www.einagudni.com', description: '<a href="www.einargudni.com" target="_blank">www.einargudni.com</a> I wanted to make me a personal website, so I saw this opportunity to try something new. I tried using Gatsby, a framework good for static-sites. I also used graphQL with Gatsby. I had an earlier version of the site, as can be seen on the picture. But I wanted to show some projects I had done so I changed the site to what it is now. <a href="https://github.com/einargudnig/homepage2.0" target="_blank">Project on Github</a> '},
-    { id: '3', source: flutterFull, thumbnail: flutterThumb, caption: '"Drinking Game"', description: 'This was made for one weekend away with the boys. Was supposed to be a Flutter app with firebase database, but due to school projects and more stuff I only managed to make a simple Flutter app with authentication. However I spent few days before the weekend and made a component and put on my website. I stored values in localStorage. Not the way I planned to id, but it did the job and made the weekend a lot fun.'},
+    { id: '3', source: pythonFull, thumbnail: pythonThumb, caption: '"Grade Checker"', description: 'I want to learn Python, I thought it would be fun to make a small script that logs on to my school site and checks if I have received my grades. If I have the script will send me an email to let me know. It is super simple but it was a fun project to do. <a href="https://github.com/einargudnig/gradeScraper" target="_blank">Project on Github</a>'},
     { id: '4', source: nflwebFull, thumbnail: nflwebThumb, caption: 'NFL Pick\'em', description: 'Changed an old school project, nodeJS webservice with PostgresQL database. Authenticated users, made the NFL 2019 schedule available for them to choose their winner from each game. Next plan was to make a Typescript frontend to use the webservice. Will hopefully have time and more experience to do that.  <a href="https://github.com/einargudnig/nflWebService" target="_blank">Project on Github</a>    '},
     /* { id: '5', source: full05, thumbnail: thumb05, caption: 'GAIA', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},*/
     /* { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'} */
