@@ -48,11 +48,11 @@ class HomeIndex extends React.Component {
                         <header className="about">
                             <h2>Einar Guðni Guðjónsson.</h2>
                         </header>
-                        <p>I will be graduating from the University of Iceland with BSc in Computer Science in may this year. <br /> 
-                        I like to learn new things and I think I learn best by doing. <br />
-                        Below I have some projects you can take a look at. I have made some more, many of them are school projects, I will start by showing these, I will add more projects in the future.</p>
+                        <p>I graduated from the University of Iceland with BSc in Computer Science in June 2020. <br /> 
+                        I like to learn and try new things. <br />
+                        </p>
                         <ul className="actions">
-                            <li><a href="https://docdro.id/IWCLYGc" target="_blank" className="button">My CV</a></li>
+                            <li><a href="https://docdro.id/kBjhW8h" target="_blank" className="button">My CV</a></li>
                         </ul>
                     </section>
 
